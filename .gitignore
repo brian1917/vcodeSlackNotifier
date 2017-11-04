@@ -1,0 +1,7 @@
+*.json
+*.log
+*.txt
+.DS_Store
+.idea/
+bin/
+*.sh
