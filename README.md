@@ -7,14 +7,13 @@ For builds that don't wait for the Veracode scan to complete, the utility can be
 ## Executables
 Executables for Windows, Mac, and Linux will be available in the releases section of the repository (https://github.com/brian1917/vcodeSlackNotifier/releases)
 
-## Third-party Packages
-github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
-
-## Argument
+## Running the utility
 The utility takes one argument - the location of the JSON config file. Run the utility as a command line
 action at the end of the build (after Veracode completed):
+`vCodeSlackNotifer appconfig.json`
 
-`vCodeSlackNotifer /folder1/appconfig.json`
+## Third-party Packages
+github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
 
 ## Configuration File
 A sample config file is shown below. The 5 parameters below are require to be present.
