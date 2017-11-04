@@ -4,6 +4,9 @@
 Utility designed to be run in a build process after a Veracode scan to notify a Slack channel that the scan completed. Optionally, the notification can also include the compliance policy assigned to that app and whether or not it's passing.
 For builds that don't wait for the Veracode scan to complete, the utility can be set to run on a schedule to provide notifications.
 
+## Executables
+Executables for Windows, Mac, and Linux will be available in the releases section of the repository.
+
 ## Third-party Packages
 github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
 
@@ -29,6 +32,3 @@ include policy information in the notification.
 
 ## Integrating with Slack
 Go to https://api.slack.com/ to create an app (I call it Veracode Notifer) and get your webhook URL. This is the URL you will use in the `slackURL` parameter of the config file.
-
-## Executables
-Executables for Windows, Mac, and Linux will be available in the releases section of the repository.
