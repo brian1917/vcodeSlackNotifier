@@ -5,7 +5,7 @@ Utility designed to be run in a build process after a Veracode scan to notify a 
 For builds that don't wait for the Veracode scan to complete, the utility can be set to run on a schedule to provide notifications.
 
 ## Executables
-Executables for Windows, Mac, and Linux will be available in the releases section of the repository.
+Executables for Windows, Mac, and Linux will be available in the releases section of the repository (https://github.com/brian1917/vcodeSlackNotifier/releases)
 
 ## Third-party Packages
 github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
