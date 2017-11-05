@@ -12,9 +12,6 @@ The utility takes one argument - the location of the JSON config file. Run the u
 action at the end of the build (after Veracode completed):
 `vCodeSlackNotifer appconfig.json`
 
-## Third-party Packages
-github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
-
 ## Configuration File
 A sample config file is shown below. The 5 parameters below are require to be present.
 ```
@@ -31,3 +28,6 @@ include policy information in the notification.
 
 ## Integrating with Slack
 Go to https://api.slack.com/ to create an app (I call it Veracode Notifer) and get your webhook URL. This is the URL you will use in the `slackURL` parameter of the config file.
+
+## Third-party Packages
+github.com/brian1917/vcodeapi (https://godoc.org/github.com/brian1917/vcodeapi)
