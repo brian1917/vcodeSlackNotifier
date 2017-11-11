@@ -23,7 +23,7 @@ func main() {
 	recentBuild := buildList[len(buildList)-1].BuildID
 
 	// Get metadata from detailed report for most recent build
-	detReportMeta, err := vcodeapi.ParseDetailedReportMeta(config.CredsFile, recentBuild)
+	detReportMeta, err := vcodeapi.ParseBuildMetaData(config.CredsFile, recentBuild)
 	if err != nil {
 		log.Fatal(err)
 	}
