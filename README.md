@@ -1,4 +1,5 @@
 # Veracode Slack Notifier Utility
+[![Go Report Card](https://goreportcard.com/badge/github.com/brian1917/vcodeSlackNotifier)](https://goreportcard.com/report/github.com/brian1917/vcodeSlackNotifier)
 
 ## Description
 Utility designed to be run in a build process after a Veracode scan to notify a Slack channel that the scan completed. Optionally, the notification can also include the compliance policy assigned to that app and whether or not it's passing.
